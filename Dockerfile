@@ -12,7 +12,7 @@ RUN apt-get dist-upgrade -qq
 RUN apt-get install -qqy git virtualenv ruby libffi-dev python-dev graphviz gcc libssl-dev
 
 #In the /opt/ directory, clone the git
-RUN git clone https://github.com/nadine2497/test.git 
+RUN git clone https://github.com/NadineOuaziz/polichombr.git 
 
 #Dans /opt/polichombr
 WORKDIR /opt/polichombr/
